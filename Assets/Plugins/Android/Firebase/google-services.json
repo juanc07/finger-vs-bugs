@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "563694885564",
+    "firebase_url": "https://finger-vs-bugs-28248850.firebaseio.com",
+    "project_id": "finger-vs-bugs-28248850",
+    "storage_bucket": "finger-vs-bugs-28248850.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563694885564:android:80167d3539f0c101",
+        "android_client_info": {
+          "package_name": "com.gigadrillgames.fingervsants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563694885564-ihp84c5setp16hfggsttd76nmcrnqs11.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "563694885564-8pigl5vll25einkfo49o3qa30k87vglm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gigadrillgames.fingervsants",
+            "certificate_hash": "662f71527b685eab51e443cbf43576f4fac5b36e"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKk-jIAxVhqZwjyFSZHmbhYhj7uLiaddw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563694885564-ihp84c5setp16hfggsttd76nmcrnqs11.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "563694885564-paj67hltqqnmheapmdri8mi01un4roiq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gigadrillgames.fingervsants",
+                "app_store_id": "1175782438"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

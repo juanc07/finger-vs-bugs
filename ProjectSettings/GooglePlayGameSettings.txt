@@ -1,0 +1,14 @@
+lastUpgrade=00936
+proj.pluginVersion=0.9.36
+proj.AppId=563694885564
+and.BundleId=com.gigadrillgames.fingervsants
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0a%3c%21--%0aGoogle+Play+game+services+IDs.%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0a--%3e%0a%3cresources%3e%0a++%3cstring+name%3d%22app_id%22%3e563694885564%3c%2fstring%3e%0a++%3cstring+name%3d%22package_name%22%3ecom.gigadrillgames.fingervsants%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_bug_hater%22%3eCgkIvLXV9rMQEAIQCw%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_bug_hunter%22%3eCgkIvLXV9rMQEAIQDA%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_bug_terminator%22%3eCgkIvLXV9rMQEAIQDQ%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_casual_tapper%22%3eCgkIvLXV9rMQEAIQDg%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_pro_tapper%22%3eCgkIvLXV9rMQEAIQDw%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_ultimate_tapper%22%3eCgkIvLXV9rMQEAIQEA%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_kids_bug_hater%22%3eCgkIvLXV9rMQEAIQEQ%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_kids_bug_hunter%22%3eCgkIvLXV9rMQEAIQEg%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_kids_bug_terminator%22%3eCgkIvLXV9rMQEAIQEw%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_kids_casual_tapper%22%3eCgkIvLXV9rMQEAIQFA%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_kids_pro_tapper%22%3eCgkIvLXV9rMQEAIQFQ%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_kids_ultimate_tapper%22%3eCgkIvLXV9rMQEAIQFg%3c%2fstring%3e%0a++%3cstring+name%3d%22leaderboard_classic%22%3eCgkIvLXV9rMQEAIQCA%3c%2fstring%3e%0a++%3cstring+name%3d%22leaderboard_kids%22%3eCgkIvLXV9rMQEAIQCQ%3c%2fstring%3e%0a%3c%2fresources%3e%0a
+and.ClientId=563694885564-no7516ltk6tgjads22s12fo5k0228rj5.apps.googleusercontent.com
+proj.requireGPlus=false
+android.SetupDone=true
+ios.ClientId=563694885564-no7516ltk6tgjads22s12fo5k0228rj5.apps.googleusercontent.com
+ios.BundleId=com.gigadrillgames.fingervsants
+ios.ResourceData=%23define+CLIENT_ID+%40%22563694885564-no7516ltk6tgjads22s12fo5k0228rj5.apps.googleusercontent.com%22%0a%23define+BUNDLE_ID+%40%22com.gigadrillgames.fingervsants%22%0a%23define+ACH_ACHIEVEMENT_1+%40%22CgkIvLXV9rMQEAIQAQ%22%0a%23define+ACH_ACHIEVEMENT_2+%40%22CgkIvLXV9rMQEAIQAg%22%0a%23define+ACH_ACHIEVEMENT_3+%40%22CgkIvLXV9rMQEAIQAw%22%0a%23define+ACH_ACHIEVEMENT_4+%40%22CgkIvLXV9rMQEAIQBA%22%0a%23define+ACH_ACHIEVEMENT_5+%40%22CgkIvLXV9rMQEAIQBQ%22%0a%23define+LEAD_CLASSIC_HIGHSCORE+%40%22CgkIvLXV9rMQEAIQBg%22%0a%23define+LEAD_KIDS_HIGHSCORE+%40%22CgkIvLXV9rMQEAIQBw%22%0a%23define+LEAD_CLASSIC+%40%22CgkIvLXV9rMQEAIQCA%22%0a%23define+LEAD_KIDS+%40%22CgkIvLXV9rMQEAIQCQ%22%0a
+ios.SetupDone=true

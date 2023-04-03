@@ -1,0 +1,97 @@
+an  Android Plugin for Unity3d that will help you access features on Android devices with in unity3d.<br><br>
+
+This plugin will speeds up your work and saves a lot of time compare on creating your own plugin which requires learning, researching, coding and testing on how to make things work.<br><br>
+
+
+<STRONG>List of Features:</STRONG><br><br>
+
+<STRONG>Note: Does not extend UnityPlayerActivity</STRONG><br><br>
+
+<STRONG>Note: For C# Lovers only</STRONG><br><br>
+
+<STRONG>Updates</STRONG><br><br>
+
+* GPS - added Accuracy info<br>
+* GPS - added Distance In Meters <br>
+* GPS - timestamp<br>
+* GPS - nmea<br>
+* Speech Recognizer added offline mode<br>
+* Speech Recognizer added Partial Results<br>
+* Media Scanner - for updating Gallery<br>
+* SharedPref - for saving and loading<br><br>
+
+1.  Local Notification<br>
+2.  Screen Shot and Share Image<br>
+3.  Share Text<br>
+4.  GPS<br>
+5.  Speech To Text<br>
+6.  Text To Speech<br>
+7.  Immersive Full Screen Mode<br>
+8.  Voice audio recorder with modify pitch<br>
+9. Get Android package id at Runtime<br>
+10. Get Android version at Runtime<br>
+11. Get Battery Life Percentage<br>
+12. Get Time<br>
+13. Flash light<br>
+14. Normal vibration<br>
+15. Vibration with pattern<br>
+16. Native loading UI<br>
+17. Native Rate my App Popup<br>
+18. Native Alert Popup<br>
+19. Native Toast Message<br>
+20. Set One Time Alarm<br>
+21. Set Repeating Alarm<br>
+22. Set Alarm with Interval<br>
+23. Camera - Take Picture using camera and then share<br>
+24. Image Picker - get image from device and then share<br>
+25. Get Existing Texture from unity3d and then share<br>
+26. Download Image from web and then share<br>
+27. Get Android ID<br>
+28. Get Telephony Device ID<br>
+29. Get Telephony Sim Serial Number<br>
+30. Get Android Advertising ID<br>
+31. Generate Unique ID<br>
+32. Get Wifi IP<br>
+33. Get Wifi SSID<br>
+34. Get Wifi BSSID<br>
+35. Get Wifi Rssi<br>
+36. Get Wifi Speed in MBS<br>
+37. Get Wifi Signal Strength<br>
+38. Check if Wifi Connected<br>
+39. Check if Mobile Connected<br>
+40. Check if Wifi Connection is Fast<br>
+41. Check if Mobile Connection is Fast<br>
+42. Text To Speech Set Locale ex. US,UK,Japanese (20 selections)<br>
+43. Text To Speech Set Pitch<br>
+44. Text To Speech Set Speech Rate<br>
+45. Text To Speech added Events OnStartSpeech,OnDoneSpeech and OnError<br>
+46. Get Account Name(depends on device)<br>
+47. Get Account Email(depends on device)<br>
+48. Get Account Phone Number(depends on device)<br>
+49. Get Contact Name(depends on device)<br>
+50. Get Contact Phone(depends on device)<br>
+51. Create Folder on Pictures or DCIM Directory<br>
+52. Get Picture Directory Path<br>
+53. Get DCIM Directory Path<br>
+54. TTS get available locale on device<br>
+55. And a lot more<br><br>
+
+
+<STRONG>Lots of Features in Affordable price</STRONG><br><br>
+
+<STRONG>This is a Super Value Deal, Grab a copy now, while the price is Affordable</STRONG><br><br>
+
+<STRONG>For more Information:</STRONG><br>
+
+<p><a href="http://www.gigadrillgames.com/android-ultimate-plugin/">Details | </a> <a href="http://www.gigadrillgames.com/2015/07/26/list-of-tutorials-for-android-ultimate-plugin/"> Tutorials | </a> <a href="http://www.gigadrillgames.com/2015/07/29/faq-android-ultimate-plugin/"> FAQ </a><br><br>
+
+<STRONG>How To Setup:</STRONG><br>
+<a href="http://www.gigadrillgames.com/2015/12/13/android-ultimate-plugin-step-by-step-how-to-setup-and-run-the-demo-scene/"> Step By Step Guide </a><br><br>
+
+<STRONG>Try Apk Demo:</STRONG><br>
+<a href="http://www.gigadrillgames.com/2015/08/21/android-ultimate-plugin-demo/"> Demo </a><br><br>
+
+
+<STRONG>For questions or suggestions or any feedback just contact us by email</STRONG> <br>
+
+<p><a href="mailto:gigadrillgames@gmail.com">gigadrillgames@gmail.com</a><br>

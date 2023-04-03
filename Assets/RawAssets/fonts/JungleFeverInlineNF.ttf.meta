@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d7db7fd552b014d50928898cfc296fcd
+timeCreated: 1488557182
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Jungle Fever Inline NF
+  fontNames:
+  - Jungle Fever Inline NF
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

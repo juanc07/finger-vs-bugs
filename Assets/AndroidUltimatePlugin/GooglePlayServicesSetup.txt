@@ -1,0 +1,45 @@
+Hi Guys, I know you want to use google play services plugin while using Android Ultimate Plugin or Android Ultimate Plugin Lite  and here’s the Steps and Guides
+
+if you are using this open source Google Play Games plugin for Unity you are lucky because we finally able to use it together with our plugin
+https://github.com/playgameservices/play-games-plugin-for-unity
+
+To make Android Ultimate Plugin or Android Ultimate Plugin Lite to work with Google Play Games Services Plugin you need to follow and do this steps
+
+For Unity3d Version 4.6.3f1
+
+1. Back up and delete the android-support-v4.jar file on Assets/Plugins/Android/ Directory because Google Play Games plugin for Unity has already have this jar file
+
+2. import Google Play Games plugin for Unity from https://github.com/playgameservices/play-games-plugin-for-unity
+
+3. follow the instructions on their github https://github.com/playgameservices/play-games-plugin-for-unity
+
+4. follow their documentation on how to use their plugin
+
+5. Build and run and you are good to go
+
+For Unity3d Version 5 and above
+
+1. Back up and delete the android-support-v4.jar file on “Assets/Plugins/Android/ ” Directory because Google Play Games plugin for Unity has already have this jar file
+
+2. Back up  and delete the android-support-v7-appcompat.jar file on Assets/Plugins/Android/ Directory because Google Play Games plugin for Unity has already have this jar file
+
+3. Back up and delete Android Ultimate Plugin.jar file or Delete Android Ultimate Plugin Lite.jar then download this jar https://drive.google.com/file/d/0Bw14w3QBZaGxQS1qYnJGYnFCeDg/view?usp=sharing and put it inside “Assets/Plugins/Android/” Directory
+
+4. import Google Play Games plugin for Unity from https://github.com/playgameservices/play-games-plugin-for-unity
+
+5. follow the instructions on their github https://github.com/playgameservices/play-games-plugin-for-unity
+
+6. follow their documentation on how to use their plugin
+
+7. Build and run and you are good to go
+
+Notes: if you are not using Google Play Games plugin for Unity  anymore please make sure to put back  this jar files inside “Assets/Plugins/Android/ ” Directory because Android Ultimate Plugin needs that.
+
+1.  android-support-v4.jar
+
+2.  android-support-v7-appcompat.jar
+
+3. if you are using Unity3d version 5 copy and paste the Android Ultimate Plugin.jar or Android Ultimate Plugin Lite.jar  file again
+
+and that’s it , I hope this Guides and Steps helps you out if you are having problem using Google Play Games plugin for Unity 
+with Android Ultimate Plugin or   Android Ultimate Plugin Lite.

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.gigadrillgames.androidplugin" android:versionCode="1" android:versionName="1.0">  	
+  	<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="16" />
+
+  	<uses-permission android:name="android.permission.INTERNET" />
+  	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  	<uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+  	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  	<uses-permission android:name="android.permission.GET_TASKS"/>
+  	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+  	<!--Vibration-->
+  	<uses-permission android:name="android.permission.VIBRATE"/>
+  	<!--Vibration-->
+
+  	<!--DeviceInfo-->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<!--DeviceInfo-->
+
+  <application>
+	<activity android:label="@string/app_name" android:name="com.gigadrillgames.androidplugin.camera.CustomCameraActivity">
+    </activity>
+
+    <!--for local notification  -->
+    <receiver android:name="com.gigadrillgames.androidplugin.notification.NotificationPublisher"/>
+	<receiver android:name="com.gigadrillgames.androidplugin.notification.NotificationOnBootReceiver">
+       	<intent-filter>
+           	<action android:name="android.intent.action.BOOT_COMPLETED" />
+       	</intent-filter>
+    </receiver>
+
+	<service android:name="com.gigadrillgames.androidplugin.notification.NotificationService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+    <!--for local notification  -->
+
+    <!--for Alarm Clock-->
+    <receiver android:name="com.gigadrillgames.androidplugin.alarm.AlarmManagerBroadcastReceiver"/>
+    <service android:name="com.gigadrillgames.androidplugin.alarm.AlarmService" android:enabled="true" android:exported="true"/>
+    <!--for Alarm Clock-->    
+
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+  </application>
+</manifest>

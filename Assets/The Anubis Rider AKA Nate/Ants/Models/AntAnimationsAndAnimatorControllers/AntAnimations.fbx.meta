@@ -1,0 +1,2338 @@
+fileFormatVersion: 2
+guid: 498dc226628e5c04abc28fae8283b331
+timeCreated: 1485459165
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ant
+    100002: //RootNode
+    100004: Antenna.L
+    100006: Antenna.L.001
+    100008: Antenna.L.002
+    100010: Antenna.L.003
+    100012: Antenna.L.003_end
+    100014: Antenna.R
+    100016: Antenna.R.001
+    100018: Antenna.R.002
+    100020: Antenna.R.003
+    100022: Antenna.R.003_end
+    100024: Armature
+    100026: Head
+    100028: LowerLeg.L
+    100030: LowerLeg.L.001
+    100032: LowerLeg.L.002
+    100034: LowerLeg.L.003
+    100036: LowerLeg.L.004
+    100038: LowerLeg.L.004_end
+    100040: LowerLeg.R
+    100042: LowerLeg.R.001
+    100044: LowerLeg.R.002
+    100046: LowerLeg.R.003
+    100048: LowerLeg.R.004
+    100050: LowerLeg.R.004_end
+    100052: MiddleLeg.L
+    100054: MiddleLeg.L.001
+    100056: MiddleLeg.L.002
+    100058: MiddleLeg.L.003
+    100060: MiddleLeg.L.004
+    100062: MiddleLeg.L.004_end
+    100064: MiddleLeg.R
+    100066: MiddleLeg.R.001
+    100068: MiddleLeg.R.002
+    100070: MiddleLeg.R.003
+    100072: MiddleLeg.R.004
+    100074: MiddleLeg.R.004_end
+    100076: Pincher.L
+    100078: Pincher.L.001
+    100080: Pincher.L.001_end
+    100082: Pincher.R
+    100084: Pincher.R.001
+    100086: Pincher.R.001_end
+    100088: Spine
+    100090: Spine.001
+    100092: Spine.002
+    100094: Spine.003
+    100096: Spine.003_end
+    100098: UpperLeg.L
+    100100: UpperLeg.L.001
+    100102: UpperLeg.L.002
+    100104: UpperLeg.L.003
+    100106: UpperLeg.L.004
+    100108: UpperLeg.L.004_end
+    100110: UpperLeg.R
+    100112: UpperLeg.R.001
+    100114: UpperLeg.R.002
+    100116: UpperLeg.R.003
+    100118: UpperLeg.R.004
+    100120: UpperLeg.R.004_end
+    400000: Ant
+    400002: //RootNode
+    400004: Antenna.L
+    400006: Antenna.L.001
+    400008: Antenna.L.002
+    400010: Antenna.L.003
+    400012: Antenna.L.003_end
+    400014: Antenna.R
+    400016: Antenna.R.001
+    400018: Antenna.R.002
+    400020: Antenna.R.003
+    400022: Antenna.R.003_end
+    400024: Armature
+    400026: Head
+    400028: LowerLeg.L
+    400030: LowerLeg.L.001
+    400032: LowerLeg.L.002
+    400034: LowerLeg.L.003
+    400036: LowerLeg.L.004
+    400038: LowerLeg.L.004_end
+    400040: LowerLeg.R
+    400042: LowerLeg.R.001
+    400044: LowerLeg.R.002
+    400046: LowerLeg.R.003
+    400048: LowerLeg.R.004
+    400050: LowerLeg.R.004_end
+    400052: MiddleLeg.L
+    400054: MiddleLeg.L.001
+    400056: MiddleLeg.L.002
+    400058: MiddleLeg.L.003
+    400060: MiddleLeg.L.004
+    400062: MiddleLeg.L.004_end
+    400064: MiddleLeg.R
+    400066: MiddleLeg.R.001
+    400068: MiddleLeg.R.002
+    400070: MiddleLeg.R.003
+    400072: MiddleLeg.R.004
+    400074: MiddleLeg.R.004_end
+    400076: Pincher.L
+    400078: Pincher.L.001
+    400080: Pincher.L.001_end
+    400082: Pincher.R
+    400084: Pincher.R.001
+    400086: Pincher.R.001_end
+    400088: Spine
+    400090: Spine.001
+    400092: Spine.002
+    400094: Spine.003
+    400096: Spine.003_end
+    400098: UpperLeg.L
+    400100: UpperLeg.L.001
+    400102: UpperLeg.L.002
+    400104: UpperLeg.L.003
+    400106: UpperLeg.L.004
+    400108: UpperLeg.L.004_end
+    400110: UpperLeg.R
+    400112: UpperLeg.R.001
+    400114: UpperLeg.R.002
+    400116: UpperLeg.R.003
+    400118: UpperLeg.R.004
+    400120: UpperLeg.R.004_end
+    4300000: Ant
+    7400000: Default Take
+    7400002: AntWalk
+    7400004: AntIdle
+    7400006: AntHurt
+    7400008: AntAttack0
+    7400010: AntAttack01
+    7400012: AntAttack02
+    7400014: AntDeath0
+    7400016: AntDeath01
+    7400018: AntDeath02
+    7400020: AntPickUp
+    7400022: AntCarryWalk
+    7400024: AntCarryIdle
+    7400026: AntPutDown
+    9500000: //RootNode
+    13700000: Ant
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 495
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntWalk
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: WalkAnimationStart
+        data: 
+        objectReferenceParameter: {fileID: 1000013829235174, guid: 661d78751463e41bbab04c36ce80554b,
+          type: 2}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5047319
+        functionName: WalkAnimationMid
+        data: 
+        objectReferenceParameter: {fileID: 1000013829235174, guid: 661d78751463e41bbab04c36ce80554b,
+          type: 2}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: WalkAnimationEnd
+        data: 
+        objectReferenceParameter: {fileID: 1000013829235174, guid: 661d78751463e41bbab04c36ce80554b,
+          type: 2}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntIdle
+      takeName: Armature|ArmatureAction
+      firstFrame: 50
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntHurt
+      takeName: Armature|ArmatureAction
+      firstFrame: 120
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntAttack0
+      takeName: Armature|ArmatureAction
+      firstFrame: 170
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntAttack01
+      takeName: Armature|ArmatureAction
+      firstFrame: 190
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntAttack02
+      takeName: Armature|ArmatureAction
+      firstFrame: 210
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntDeath0
+      takeName: Armature|ArmatureAction
+      firstFrame: 120
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntDeath01
+      takeName: Armature|ArmatureAction
+      firstFrame: 140
+      lastFrame: 156
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntDeath02
+      takeName: Armature|ArmatureAction
+      firstFrame: 220
+      lastFrame: 244
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntPickUp
+      takeName: Armature|ArmatureAction
+      firstFrame: 250
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntCarryWalk
+      takeName: Armature|ArmatureAction
+      firstFrame: 330
+      lastFrame: 370
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntCarryIdle
+      takeName: Armature|ArmatureAction
+      firstFrame: 380
+      lastFrame: 440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntPutDown
+      takeName: Armature|ArmatureAction
+      firstFrame: 440
+      lastFrame: 495
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.L/Antenna.L.001/Antenna.L.002/Antenna.L.003/Antenna.L.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003
+        weight: 1
+      - path: Armature/Spine/Head/Antenna.R/Antenna.R.001/Antenna.R.002/Antenna.R.003/Antenna.R.003_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.L/Pincher.L.001/Pincher.L.001_end
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001
+        weight: 1
+      - path: Armature/Spine/Head/Pincher.R/Pincher.R.001/Pincher.R.001_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.L/MiddleLeg.L.001/MiddleLeg.L.002/MiddleLeg.L.003/MiddleLeg.L.004/MiddleLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004
+        weight: 1
+      - path: Armature/Spine/MiddleLeg.R/MiddleLeg.R.001/MiddleLeg.R.002/MiddleLeg.R.003/MiddleLeg.R.004/MiddleLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/UpperLeg.L.001/UpperLeg.L.002/UpperLeg.L.003/UpperLeg.L.004/UpperLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/UpperLeg.R.001/UpperLeg.R.002/UpperLeg.R.003/UpperLeg.R.004/UpperLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.002/LowerLeg.L.003/LowerLeg.L.004/LowerLeg.L.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.002/LowerLeg.R.003/LowerLeg.R.004/LowerLeg.R.004_end
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine.001/Spine.002/Spine.003/Spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

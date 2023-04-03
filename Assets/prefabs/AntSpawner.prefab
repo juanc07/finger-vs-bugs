@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013640419854}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013640419854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012249571566}
+  - component: {fileID: 114000013516319560}
+  - component: {fileID: 114471175772588278}
+  m_Layer: 0
+  m_Name: AntSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012249571566
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013640419854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.6400003, z: 51.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013516319560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013640419854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f429f63335f4028b3acd582bb3925e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  antWorkerPrefab: {fileID: 1000013829235174, guid: 661d78751463e41bbab04c36ce80554b,
+    type: 2}
+  antWarriorPrefab: {fileID: 1000011631460988, guid: 90e3a97487e734f03ae7ed59ce63df85,
+    type: 2}
+  antQueenPrefab: {fileID: 1000012428723010, guid: 17adb7d9f7cee4435b17d6d1cfa03ab1,
+    type: 2}
+  antHolder: {fileID: 1000013640419854}
+  spawnPoint: {x: 0, y: 0, z: 40}
+  minPositionX: -25
+  maxPositionX: 25
+  minPositionZ: 50
+  maxPositionZ: 55
+  initialSpawnRate: 0
+  spawnRate: 1
+  maxCount: 100
+  minCount: 100
+  rotation: {x: 0, y: 180, z: 0}
+  enableAntWorker: 1
+  enableAntWarrior: 1
+  enableAntQueen: 1
+  forceAntType: 5
+  antWorkerDied: 0
+  antWarriorDied: 0
+  antQueenDied: 0
+  antLarvaeDied: 0
+  antEggDied: 0
+  antCollection: []
+--- !u!114 &114471175772588278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013640419854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea31fabf20f8a4077bfe56c419146dc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tick: 0
+  isActivated: 0
